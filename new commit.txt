@@ -1,1 +1,8 @@
+this is a experimental commit 
+
 this is the new commit 
+ git branch
+ git branch experimental
+ git branch
+ git checkout experimental (to change the directory)
+ 
