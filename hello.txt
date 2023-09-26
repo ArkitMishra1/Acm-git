@@ -1,0 +1,2 @@
+This is initialization
+write git init in in it 

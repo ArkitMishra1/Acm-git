@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+class CTest
+{
+private:
+    int iCount;
+public:
+    CTest()
+    {
+        iCount = 0;
+        cout<<"Constructor"<<endl;
+    }
+    void DisplayInfo()
+    {
+        cout<<iCount;
+    }
+    ~CTest()
+    {
+        cout<<"Destructor"<<endl;
+    }
+};
+
+int main()
+{
+    int iCount = 10;
+    CTest*objCTest = new CTest;
+    ovjCTest -> DisplayInfo();
+    return 0;
+}
